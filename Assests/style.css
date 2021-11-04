@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    display: inline;
+}
+
+.mainBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+a:link{
+    color: rgb(2, 0, 0);
+}
+
+@font-face {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;;
+    src: url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto:wght@700&display=swap');
+}
+.container{
+    height: 150vh;
+    background-color: #d0d9e6;
+    
+}
+.header{
+    width: 1350px;
+    margin-left: 185px;
+
+}
+.why{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.companyName
+{ font-family:Roboto; 
+  font-size: 40px; 
+  font-weight: bolder;
+}
+.desc{
+    font-size: 16.5px;
+    opacity: 67%;
+    text-align: left;
+}
+
+.package{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1350px;
+    height: 580px;
+    margin-left: 5px;
+}
+
+.pack{
+    width: 600px;
+    margin: 30px;
+
+}
+.package .pack {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+
+.pack:hover{
+    background-color: #d0d9e6;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    transition-duration: 1s;
+    z-index: 1;
+}
+
+.optionBox{
+    padding: 44px;
+    margin-bottom:35px ;
+}
+.image{
+    width: 190px;
+    height: 190px;
+    float: left;
+}
+
+.content{
+    left: -50px;
+    bottom: -35px;
+    position: relative;
+    width: 288px;
+   margin: 24px;
+   padding: 21px;
+   color: black;
+
+
+}
+.sectioName{
+   
+    font-size: 30px; 
+    font-family:Roboto; 
+    font-weight: bolder;
+
+}
+
